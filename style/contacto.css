@@ -1,0 +1,66 @@
+#contacto {
+  padding: 100px 15px;
+}
+@media screen and (max-width: 800px) {
+  #contacto {
+    padding: 50px 15px;
+  }
+}
+#contacto .titulo-seccion {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #d3d3d3;
+          text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 5px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+#contacto .contenedor-form {
+  max-width: 1100px;
+  margin: auto;
+}
+#contacto .contenedor-form .fila {
+  margin-bottom: 15px;
+}
+#contacto .contenedor-form .fila .input-full {
+  width: 100%;
+}
+#contacto .contenedor-form .mitad {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  #contacto .contenedor-form .mitad {
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+#contacto .contenedor-form .mitad input {
+  width: 48%;
+}
+@media screen and (max-width: 800px) {
+  #contacto .contenedor-form .mitad input {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+}
+#contacto .contenedor-form input, #contacto .contenedor-form textarea {
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #919191;
+}
+#contacto .contenedor-form .btn-enviar {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+#contacto .contenedor-form .btn-enviar:hover {
+  background-color: #ff5080;
+  color: #fff;
+}/*# sourceMappingURL=contacto.css.map */
