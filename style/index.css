@@ -69,8 +69,8 @@
   transition: 0.5s;
 }
 .inicio .contenido header .contenido-header nav ul li a:hover {
-  color: #ff5080;
-  color: #50ff50;
+  /* color: #ff5080; */
+  color: #3942fa;
 }
 .inicio .contenido .presentacion {
   max-width: 1100px;
@@ -101,7 +101,7 @@
 .inicio .contenido .presentacion h2 span {
   font-size: 55px;
   /* color: #ff5080; */
-  color: #50ff50;
+  color: #3942fa;
 }
 }
 .inicio .contenido .presentacion .descripcion {
@@ -124,7 +124,7 @@
 }
 .inicio .contenido .presentacion a:hover {
   /* background: #ff5080; */
-  background: #50ff50;
+  background: #3942fa;
 }
 .inicio .contenido .presentacion .redes {
   margin: 2% auto;
@@ -139,7 +139,7 @@
 }
 .inicio .contenido .presentacion .redes .redes a:hover {
   /* color: #ff5080; */
-  color: #50ff50;
+  color: #3942fa;
 }
 .inicio .contenido .presentacion .redes .links {
   border: none;
@@ -147,7 +147,7 @@
 .inicio .contenido .presentacion .redes .links:hover {
   background-color: rgba(0, 0, 0, 0);
   /* color: #ff5080;   */
-  color: #50ff50;
+  color: #3942fa;
 }
 .inicio .contenido .presentacion .redes .links .iconos {
   font-size: 35px;
@@ -227,7 +227,7 @@
 }
 .sobremi .contenedor-sobremi h2 span {
   /* color: #ff5080; */
-  color: #50ff50;
+  color: #3942fa;
 }
 .sobremi .contenedor-sobremi h3 {
   font-size: 18px;
@@ -254,7 +254,7 @@
 }
 .sobremi .contenedor-sobremi a:hover {
   /* background-color: #ff5080; */
-  background-color: #50ff50;
+  background-color: #3942fa;
   color: #fff;
 }
 
@@ -423,7 +423,7 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   /* color: #ff5080; */
-  color: #50ff50;
+  color: #3942fa;
   width: 100%;
   padding: 10px;
   opacity: 0;
@@ -495,7 +495,7 @@
 }
 #contacto .contenedor-form .btn-enviar:hover {
   /* background-color: #ff5080; */
-  background-color: #50ff50;;
+  background-color: #3942fa;;
   color: #fff;
 }
 
@@ -527,5 +527,5 @@ footer a {
 }
 footer a:hover {
   /* color: #ff5080; */
-  color: #50ff50;
+  color: #3942fa;
 }/*# sourceMappingURL=index.css.map */
