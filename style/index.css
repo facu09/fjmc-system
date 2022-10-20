@@ -20,11 +20,19 @@
   align-content: center;
   padding: 10px 20px;
   margin-top: 2%;
+  /* align-items: center; */
 }
 .inicio .contenido header .contenido-header .contenedor-logo {
   width: 6em;
   height: 6em;
-  margin-top: -2em;
+  margin-top: -1.6em;
+}
+@media screen and (max-width: 800px) {
+  .inicio .contenido header .contenido-header .contenedor-logo {
+    width: 4em;
+    height: 4em;
+    margin-top: -7px;
+  }
 }
 .inicio .contenido header .contenido-header .contenedor-logo img {
   width: 100%;
@@ -66,13 +74,16 @@
   color: #fff;
   margin: 0 12px;
   font-weight: 500px;
+  font-size: 17px;
   transition: 0.5s;
 }
 .inicio .contenido header .contenido-header nav ul li a:hover {
   /* color: #ff5080; */
   /* color: #3942fa; */
   color: #39c0fa;
+  /* font-size: 20px; */  /*Lo comento xque hace algo raro*/
   /* color:red; */
+  text-decoration: underline;
 }
 .inicio .contenido .presentacion {
   max-width: 1100px;
@@ -89,6 +100,7 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-weight: bold;
 }
 .inicio .contenido .presentacion h2 {
   font-size: 45px;
@@ -97,7 +109,8 @@
 }
 @media screen and (max-width: 800px) {
   .inicio .contenido .presentacion h2 {
-    font-size: 40px;
+    font-size: 32px;
+    padding: 0px 20px;
   }
 }
 .inicio .contenido .presentacion h2 span {
@@ -105,12 +118,21 @@
   /* color: #ff5080; */
   color: #3942fa;
 }
+@media screen and (max-width: 800px) {
+  .inicio .contenido .presentacion h2 span {
+    font-size: 42px;
+  }
 }
 .inicio .contenido .presentacion .descripcion {
   max-width: 700px;
   margin: 25px auto;
   font-size: 18px;
   text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .inicio .contenido .presentacion .descripcion {
+      padding: 0px 20px;
+  }
 }
 .inicio .contenido .presentacion a {
   text-decoration: none;
@@ -361,10 +383,23 @@
   gap: 5%;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 800px) {
+  #habilidades {
+    padding: 100px 0;
+  }
+}
+
 #habilidades .skills {
   width: 30%;
   margin-bottom: 5%;
 }
+@media screen and (max-width: 800px) {
+  #habilidades .skills {
+    width: 63%;
+    margin-bottom: 12%;
+  }
+}
+
 #habilidades .skills img {
   /* width: 40%; */
   width: 100%;
@@ -418,6 +453,12 @@
   position: relative;
   overflow: hidden;
   cursor: pointer; 
+}
+@media screen and (max-width: 800px) {
+  .portfolio .contenedor-proyectos .proyecto {
+    width: 90%;
+    height: 265px; 
+  }
 }
 
 .portfolio .contenedor-proyectos .proyecto:hover img {
@@ -544,6 +585,7 @@ footer {
   text-align: center;
   padding: 30px 0;
 }
+
 footer a {
   margin-top: 2%;
   text-decoration: none;
@@ -553,6 +595,15 @@ footer a {
   transition: 0.5s;
   font-size: 25px;
 }
+@media screen and (max-width: 800px) {
+  footer a {
+    font-size: 20px;
+  }
+}
+footer a .icons {
+  font-size: 30px;
+}
+
 footer a:hover {
   /* color: #ff5080; */
   color: #3942fa;
