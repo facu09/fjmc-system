@@ -382,6 +382,8 @@
   flex-wrap: wrap;
   gap: 5%;
   justify-content: space-evenly;
+  /* agregado 10/01/2023 */
+  /* margin: 500px 0px   */
 }
 @media screen and (max-width: 800px) {
   #habilidades {
@@ -426,6 +428,13 @@
   padding: 150px 0 0 0 ;
   margin: auto;
 }
+
+/* Agrego clase para separar las otras demos con menos distancia verticla entre ellas  */
+/* 10/01/2023 */
+.portfol1 {
+    padding: 50px 0 0 0 ;
+  }
+
 .portfolio .titulo-seccion {
   text-align: center;
   font-size: 28px;
